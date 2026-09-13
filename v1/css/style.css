@@ -1,20 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #555;
     line-height: 1.6;
     padding: 20px;
+    display: flex;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+
 }
-h1{
-    font-size: 2rem;
-    color: #333;
+
+h1 {
+    font-size: 1.5rem;
+    color: indigo;
     text-align: center;
     margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+}
+p {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+span {
+    white-space: nowrap;
+    font-weight: bold;
 }
